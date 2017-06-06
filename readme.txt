@@ -6,3 +6,6 @@ git log  查看从最近到最远的日志
 git log --pretty=oneline   查看从最近到最远的日志(简略版)
 工作区 add 暂存区 commit 版本库
 git diff HEAD -- readme.txt    查看工作区和版本库的最新区别
+git checkout -- readme.txt   把readme.txt文件在工作区的修改全部撤销，这里有两种情况：
+一种是readme.txt自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；
+一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
