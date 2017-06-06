@@ -12,3 +12,5 @@ git checkout -- readme.txt   把readme.txt文件在工作区的修改全部撤�
 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。
 git reset HEAD readme.txt 把暂存区的修改撤销掉（unstage），重新放回工作区.
 $ ssh-keygen -t rsa -C "youremail@example.com"   创建SSH key
+git remote add origin git@github.com:2322349031/learngit.git    把一个已有的本地仓库与之关联
+git push -u origin master  把本地库的所有内容推送到远程库上
