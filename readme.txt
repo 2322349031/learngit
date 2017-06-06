@@ -5,3 +5,4 @@ git diff readme.txt 查看readme修改了哪里
 git log  查看从最近到最远的日志
 git log --pretty=oneline   查看从最近到最远的日志(简略版)
 工作区 add 暂存区 commit 版本库
+git diff HEAD -- readme.txt    查看工作区和版本库的最新区别
